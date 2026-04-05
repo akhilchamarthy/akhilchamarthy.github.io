@@ -1,0 +1,120 @@
+:root {
+    --earth-brown: #8B4513;
+    --earth-green: #6B8E23;
+    --earth-tan: #D2B48C;
+    --earth-cream: #F5F5DC;
+    --earth-rust: #CD853F;
+    --earth-sage: #9CAF88;
+}
+
+body {
+    background-color: var(--earth-cream);
+    color: #333;
+}
+
+.navbar {
+    background-color: var(--earth-brown) !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--earth-cream) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--earth-tan) !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--earth-sage), var(--earth-tan));
+    color: white;
+    padding: 80px 0;
+}
+
+.btn-earth {
+    background-color: var(--earth-green);
+    border-color: var(--earth-green);
+    color: white;
+}
+
+.btn-earth:hover {
+    background-color: var(--earth-brown);
+    border-color: var(--earth-brown);
+    color: white;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.fact-card {
+    background-color: var(--earth-tan);
+    color: var(--earth-brown);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+}
+
+.fact-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-placeholder {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;      /* keeps aspect ratio, fills circle */
+    object-position: center 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: var(--earth-brown);
+    border-bottom: 3px solid var(--earth-green);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.blog-card {
+    border-left: 4px solid var(--earth-green);
+    background-color: white;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: var(--earth-brown);
+    color: var(--earth-cream);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.company-header-avatar{
+    width: 100%;
+    height: auto;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+.landscape .company-header-avatar{ 
+    width: auto;
+    height: 100%;
+}
+.potrait .company-header-avatar{ 
+    width: 100%;
+    height: auto;
+}
+.image_cover{ 
+    width:60px; 
+    height:60px; 
+    border-radius:50%; 
+    overflow:hidden;
+    float: left;    
+    margin: 7px 0 0 5px;
+}
